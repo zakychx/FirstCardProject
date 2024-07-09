@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-image: url(/img/9a9be42e545babd4bbf5ca2a92084e32.gif);
+
+    background-size: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    height: 400px;
+
+}
+
+.avatar{
+    top: 40px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+
+}
+.container{
+justify-content: center;
+height: 120px;
+width: 230px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+.Xygen{
+    color: white;
+    font-size: 60px;
+    justify-content: center;
+    font-family: "Radio Canada Big", sans-serif;
+    text-shadow: 2px 2px 6px rgba(250, 255, 255, 1);
+}
+.zxc{
+    justify-content: center;
+    height: 120px;
+    width: 230px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(20, 0, 255, 0.5);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 0.8;
+}
+
+.my-button:hover {
+    opacity: 0.8;
+    background-color: rgba(60, 0, 255, 0.5);
+}
+.my-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(20, 0, 255, 0.5);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 0.8;
+}
+
+.my-button2:hover {
+    opacity: 0.8;
+    background-color: rgba(60, 0, 255, 0.5);
+}
+.me{
+    justify-content: center;
+    height: 40px;
+    width: 230px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+}
+.tg1{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(0, 50, 255, 0.5);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 0.8;
+}
+.tg1:hover{
+    opacity: 0.8;
+    background-color: rgba(60, 0, 255, 0.5);
+}
+.tg2{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgba(0, 50, 255, 0.5);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Radio Canada Big", sans-serif;
+    opacity: 0.8;
+}
+.tg2:hover{
+    opacity: 0.8;
+    background-color: rgba(60, 0, 255, 0.5);
+}
+.ds{
+    width: 70px;
+}
+.ds:hover{
+    cursor: pointer;
+}
+#copyButton{
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(60, 0, 255, 0.3);
+    height: 30px;
+    width: 100px;
+}
+.pi{
+    font-family: "Radio Canada Big", sans-serif;
+    text-shadow: 2px 2px 6px rgba(250, 255, 255, 1);
+}
+#copyButton:hover{
+    cursor: pointer;
+}
+.textToCopy{
+    display: none;
+}
+.copy{
+    width: 100px;
+    height: 23px;
+    border: 1px solid white;
+    display: non;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    background-color: rgba(0, 255, 10, 0.4);
+    border-radius: 13px;
+    text-shadow: 2px 2px 6px rgba(250, 255, 255, 1);
+    display: none;
+}
+.copyt{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.copy {
+    opacity: 1;
+    transition: opacity 1s ease-out; 
+}
+
+.copy.fadeOut {
+    opacity: 0;
+}
